@@ -7,7 +7,7 @@ body {
     width: 1024px;
     height: 863px;
     margin: auto;
-    background: url("img/board.jpg") no-repeat;
+    background: url('img/board.jpg') no-repeat;
 }
 
 #messageArea {
@@ -15,6 +15,7 @@ body {
     top: 0;
     left: 0;
     color: rgb(83, 175, 19);
+    font-size: 2em;
 }
 
 table {
@@ -34,7 +35,7 @@ form {
     bottom: 0;
     right: 0;
     padding: 15px;
-    background-color: rgb(83, 175, 19);;
+    background-color: rgb(83, 175, 19);
 }
 
 form input {
@@ -44,9 +45,9 @@ form input {
 }
 
 .hit {
-    background: url("img/ship.png") no-repeat center center;
+    background: url('img/ship.png') no-repeat center center;
 }
 
 .miss {
-    background: url("img/miss.png") no-repeat center center;
+    background: url('img/miss.png') no-repeat center center;
 }
